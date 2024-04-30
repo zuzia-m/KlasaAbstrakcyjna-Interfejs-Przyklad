@@ -4,12 +4,12 @@
     {
         public string Imie { get; set; }
 
-        public void Biegnij()
-        {
-            Console.WriteLine("Biegnę");
-        }
+        public abstract void Ruszaj();
 
-        public abstract void DajGłos();
+        public virtual void DajGłos()
+        {
+            Console.WriteLine("Daję głos");
+        }
 
         public void Jedz()
         {

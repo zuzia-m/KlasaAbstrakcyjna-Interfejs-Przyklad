@@ -3,7 +3,7 @@
     public interface IZwierze
     {
         string Imie { get; set; }
-        public void Biegnij();
+        public void Ruszaj();
         public void DajGłos();
         public void Jedz();
     }
